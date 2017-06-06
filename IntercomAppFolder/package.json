@@ -7,17 +7,33 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Apache Cordova Team",
-    "license": "Apache-2.0",
+    "author": "Alpha team: Jean Mbaya and Quan Tran",
+    "license": "millenialtech",
     "dependencies": {
         "cordova-android": "^6.2.3",
         "cordova-ios": "^4.4.0",
         "cordova-plugin-whitelist": "^1.3.2",
-        "cordova-windows": "^5.0.0"
+        "cordova-windows": "^5.0.0",
+        "cordova-plugin-camera": "~2.1.1",
+        "cordova-plugin-device": "~1.1.1",
+        "cordova-plugin-dialogs": "~1.2.0",
+        "cordova-plugin-geolocation": "~2.1.0",
+        "cordova-plugin-inappbrowser": "~1.3.0",
+        "cordova-plugin-network-information": "~1.2.0",
+        "cordova-plugin-splashscreen": "~2.1.3",
+        "cordova-plugin-statusbar": "~1.2.1"
     },
     "cordova": {
         "plugins": {
-            "cordova-plugin-whitelist": {}
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-camera": {},
+            "cordova-plugin-device": {},
+            "cordova-plugin-dialogs": {},
+            "cordova-plugin-geolocation": {},
+            "cordova-plugin-inappbrowser": {},
+            "cordova-plugin-network-information": {},
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-statusbar": {}
         },
         "platforms": [
             "android",
