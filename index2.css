@@ -24,7 +24,7 @@
 }
 
 .buttonLinks{
-  width: 15em;
+  width: 14em;
   font-size: 15px;
   text-align: center;
   color: #fff;
@@ -52,7 +52,7 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    /*background-color:#E4E4E4;
+  /*  background-color:#E4E4E4;
     background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
@@ -62,7 +62,7 @@ body {
         left bottom,
         color-stop(0, #A7A7A7),
         color-stop(0.51, #E4E4E4)
-    );*/
+    ); */
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
@@ -75,12 +75,11 @@ body {
 
 /* Portrait layout (default) */
 .app {
-  align-self: center;
     /*background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
     /*position:absolute;             /* position in the center of the screen */
     /*left:50%;
-    top:50%; */
-    height:225px;                   /* text area height */
+    top:50%;
+    height:250px;                   /* text area height */
     width:225px;                   /* text area width */
     text-align:center;
     margin: 0 auto;
@@ -106,8 +105,6 @@ input{
   background-color: #fff;
   padding-left: 10px;
 
-}
-form{
 }
 
 /* Landscape layout (with min-width) */
