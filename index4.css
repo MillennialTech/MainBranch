@@ -1,21 +1,6 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
+
+
+ /*Created by Jean Baptiste Mbaya, Aug 6th, 2017*/
 .buttonclass{
   font-size: 15px;
   text-align: center;
@@ -24,7 +9,7 @@
 }
 
 .buttonLinks{
-  width: 15em;
+  width: 14em;
   font-size: 15px;
   text-align: center;
   color: #fff;
@@ -39,6 +24,9 @@ div class{
   text-align:center;
   margin:auto;
 }
+a{
+  margin-top: 100px
+}
 
 
 * {
@@ -47,7 +35,7 @@ div class{
 
 body {
   margin: 0 auto;
-  background-image: url("../img/ggcintercom_background.jpg");
+  background-image: url("../img/ggcintercom_background2.jpg");
   background-size: 100% 720px;
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
@@ -56,12 +44,7 @@ body {
     background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0, #A7A7A7),
-        color-stop(0.51, #E4E4E4)
+    background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0, #A7A7A7),color-stop(0.51, #E4E4E4)
     );*/
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
@@ -69,34 +52,32 @@ body {
     height:100%;
     margin:0px;
     padding:0px;
-    /*text-transform:lowercase;*/
     width:100%;
 }
 
 /* Portrait layout (default) */
 .app {
-  align-self: center;
     /*background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
     /*position:absolute;             /* position in the center of the screen */
     /*left:50%;
-    top:50%; */
-    height:225px;                   /* text area height */
+    top:50%;*/
+    height:100px;                   /* text area height */
     width:225px;                   /* text area width */
     text-align:center;
     margin: 0 auto;
-    background-color: rgba(255,255,255,0.3);
     border-radius: 4px;
     position: relative;
-    /*padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin-top: 100px; /*margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+    background-color: rgba(150,0,255,0.3);
+    /*padding-top: 100px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin-top: 50px; /*margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
 }
 
 .app img{
   width: 100px;
   height: 100px;
-  margin-top: -60px;
-  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: -120px;
 }
 input{
   height: 25px;
@@ -107,7 +88,8 @@ input{
   padding-left: 10px;
 
 }
-form{
+
+
 }
 
 /* Landscape layout (with min-width) */
@@ -130,7 +112,7 @@ text{
 
 h1{
   font-size: 180px;
-  color: rgba(0,230,0,0.2);
+  color: rgba(0,230,0,0.1);
   text-align: center;
   margin: 0px;
 }
